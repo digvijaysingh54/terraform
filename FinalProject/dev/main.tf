@@ -1,3 +1,8 @@
+provider "aws" {
+  region = "us-east-1"
+  access_key = "AKIA4FSAPTC5KMJC"
+  secret_key = "LaHLeBaZC7j4HFXZMZvyR6JurQQgCIG3Pof"
+}
 module "lambda" {
   source             = "./modules/lambda"
   source_path        = var.source_path
